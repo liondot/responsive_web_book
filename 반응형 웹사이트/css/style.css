@@ -1,0 +1,32 @@
+/* 모바일 용 css  */
+/* 기본 css  */
+#wrap {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#wrap section {
+    box-sizing: border-box;
+}
+
+
+
+/* 태블릿 용 css  */
+@media all and (min-width:768px) {
+    #wrap {
+        flex-flow: row wrap;
+    }
+}
+
+
+/* PC 용 css  */
+@media all and (min-width:960px) {
+    #wrap {
+        position: relative;
+        width: 90%;
+    }
+
+}
