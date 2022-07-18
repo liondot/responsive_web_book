@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+/* 모바일용 css  */
+/* 서브 헤더 영역 css  */
+.sub_header_section {
+    order: 3;
+    padding: 48px 0;
+    padding: 3.000rem 0; 
+    text-align: center;
+    background: #219af7;
+}
+
+.sub_header_section h2 {
+    margin-bottom: 12px;
+    margin-bottom: 0.750rem;
+    font-size: 1.313em;
+    font-size: 1.313rem;
+    color: #fff;
+}
+
+.breadcrum_list li {
+    display: inline;
+    font-size: 0.813em;
+    font-size: 0.813rem;
+    font-weight: bold;
+}
+
+/* 콘텐츠 영역 css  */
+.content_section {
+    order: 4;
+    padding: 20px;
+    padding: 1.250rem;
+    background: #fff;
+}
+
+/* 푸터영역 css  */
+.footer {
+    order: 5;
+}
+
+
+/* 태블릿 용 css  */
+@media all and (min-width: 768px) {
+    /* 콘텐츠 영역 css  */
+    .content_section {
+        padding: 40px;
+        padding: 2.500rem;
+    }
+}
+
+/* pc용 css  */
+@media all and (min-width:960px) {
+    /* 서브 헤더 영역css  */
+    .sub_header_section {
+        order: 2;
+    }
+
+    /* 콘텐츠 영역 css  */
+    .content_section {
+        order: 3;
+        padding: 60px;
+        padding: 3.750rem;
+    }
+
+    .footer {
+        order: 4;
+    }
+}
